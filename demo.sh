@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # update codeql queries
+git submodule init
 git submodule update
 
 rm -rf codeql_db
